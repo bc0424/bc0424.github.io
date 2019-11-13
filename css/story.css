@@ -1,0 +1,78 @@
+body{
+/*	overflow: hidden;
+*/	background-color: white;
+
+}
+
+/*For Title*/
+
+h1{
+	font-family: 'Libre Barcode 128 Text';
+	font-size: 5.5em;
+	text-align:center;
+	color: #333333;
+}
+
+div{
+	font-family: 'Cutive Mono';
+	font-size: 1em;
+	width: 45%;
+	display:inline;
+	bottom: 5%;
+	text-indent:50px;
+
+
+}
+
+.words{
+  position:absolute;
+  top:25%;
+  /*left: 100%;
+  transform: translateX(-100%);
+*/
+	left:50%;
+	transform: translateX(-50%);
+}
+
+
+.important{
+	font-size: 1.5em;
+	background-color: #FF6464;
+	color:white;
+}
+
+#story{
+	text-indent: 50px;
+	opacity: 1;
+}
+
+#story fade{
+	opacity: 0;
+}
+
+#clear{ clear: both;
+  display: block;  
+  content: "";
+  height: 5%;  
+}
+
+#story12{
+	text-align: center;
+
+}
+a{
+	text-decoration: none;
+}
+
+h1:hover{
+	color:white;
+}
+
+img{
+	width: 6%;
+	height:6%;
+	position:relative;
+	margin-left:60%;
+	margin-top: 40%;
+
+}

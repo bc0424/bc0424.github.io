@@ -1,0 +1,60 @@
+body{
+	overflow: hidden;
+	background-color: white;
+}
+
+/*For Title*/
+
+h1{
+	font-family: 'Libre Barcode 128 Text';
+	font-size: 5.5em;
+	text-align:center;
+	color: #333333;
+}
+
+/*For button spacing*/
+
+.buttonlink{
+	text-align: center;
+}
+
+
+button{
+	border: none;
+	background:none;
+	padding: 0px;
+	width: 125px;
+	height:125px;
+	margin: 10%;
+}
+
+button:focus{
+	outline: 0;
+}
+
+button:hover{
+	width: 127px;
+	height: 127px;
+}
+
+img{
+	width: 100%;
+}
+
+/*Credit Text Layout and Style*/
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: white;
+}
+.credit{
+	text-align:center;
+	font-family: 'Cutive Mono';
+	font-size: 1.25em;
+}
+
+

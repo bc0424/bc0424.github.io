@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<!-- Set limit of website width and reference css style sheet -->
+<!-- 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	    <link rel="stylesheet" type="text/css" href="css/story.css">
+	    <!-- Link to js script to allow for p5 -->
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+		<!-- Link to barcode and text font from Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Source+Code+Pro" rel="stylesheet">
+	 	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+
+		<title>Cyber Art</title>
+	</head>
+<body>
+
+	<!-- Title of Page -->
+	<a href="index.html"><h1>The Story</h1></a>
+
+	<div class="words">
+
+	<!-- Pargraph 1 (Id story) -->
+	<div id="story" style="visibility: hidden">
+		    As I walked through the MoCA museum in Shanghhai, I found myself in awe by the art pieces of street artists: <u>L'Atlas</u>, <u>JonOne</u>, and <u>Tanc</u>. Their small to large scale artworks made me realize how distant I've grown from
+	</div>
+
+		<span class="important">
+			<b>tangible art.</b>
+		</span>	
+	<br>
+
+	<div id="clear"></div>
+
+	<!-- Paragrpah 2 (Id story 2,3,) -->
+	<div id="story2" style="visibility: hidden">
+		Being a digital designer has left my head buried in front of the computer screen - creating 
+	</div>
+
+		<span class="important">
+			<b>digital art</b>
+		</span>
+
+	<div id="story3" style="visibility: hidden">
+		that could be seen but not felt. All that I knew now was the 
+	</div>
+
+		<span class="important">
+			<b>world of code.</b>
+		</span>
+	<br>
+
+	<div id="clear"></div>
+
+	<!-- Paragraph 3 (Id story 4,5,6) -->
+	<div id="story4" style="visibility: hidden">
+		Through this project, I wanted	
+	</div>
+
+		<span class="important">
+		<b>to bridge</b>
+		</span>
+
+	<div id="story5" style="visibility: hidden">
+		the gap between the physical and digital art world. To use my skills in both mediums to create an experience users can understand and
+	</div>
+
+		<span class="important">
+		<b>explore</b>
+		</span>
+
+	<div id="story6" style="visibility: hidden">
+		simultanesouly.
+	</div>
+	
+	<div id="clear"></div>
+
+	<!-- Paragraph 4 (Id story 7,8.9) -->
+
+	<div id="story7" style="visibility: hidden">
+		CyberArt is a space where users have the opportunity
+	</div>
+		<span class="important">
+		<b>to blend</b>
+		</span>
+	<div id="story8" style="visibility: hidden">
+		inspired art styles together through digital and physical means. Color palettes were chosen to
+	</div>
+
+		<span class="important">
+		<b>reflect</b>
+		</span>
+
+	<div id="story9" style="visibility: hidden">
+	physical objects such as fruits, while music was chosen to create a studio-like ambience.
+	</div>
+	
+	<br>
+
+	<div id="clear"></div>
+
+	<!-- Paragraph 5 (Id story 10,11) -->
+
+	<div id="story10" style="visibility: hidden">
+		By painting and coding each piece personally, I've had my own first hand 
+	</div>
+		<span class="important">
+			<b>experience</b>
+		</span>
+
+	<div id="story11" style="visibility: hidden">
+		in bringing together two mediums into one. </div>
+
+		<div id="clear"></div>
+
+	<div id="story12" style="visibility:hidden">
+	<b>I want to provide the same experience to all through CyberArt.</b>
+	</div>
+
+</div>
+
+<div id="signature" style="visibility: hidden">
+	<img src="img/button/sign.png">
+</div>
+
+
+<script type="text/javascript">  
+function showIt() {  
+  document.getElementById("story").style.visibility = "visible"; 
+    document.getElementById("story").fadeIn("slow,3000"); 
+}
+function showIt2() {  
+
+   document.getElementById("story2").style.visibility = "visible";  
+   document.getElementById("story3").style.visibility = "visible";   
+  }
+  function showIt3() {  
+    document.getElementById("story4").style.visibility = "visible";   
+    document.getElementById("story5").style.visibility = "visible";   
+    document.getElementById("story6").style.visibility = "visible";   
+
+   }
+
+   function showIt4() {  
+
+    document.getElementById("story7").style.visibility = "visible";   
+    document.getElementById("story8").style.visibility = "visible";   
+    document.getElementById("story9").style.visibility = "visible";   
+
+   }
+   function showIt5() {  
+
+    document.getElementById("story10").style.visibility = "visible";   
+    document.getElementById("story11").style.visibility = "visible";   
+
+}
+     function showIt6() {  
+
+    document.getElementById("story12").style.visibility = "visible";   
+
+}
+  
+     function showIt7() {  
+
+    document.getElementById("signature").style.visibility = "visible";   
+
+}
+setTimeout("showIt()", 1000); // after 2 sec  
+setTimeout("showIt2()", 2000); // after 2 sec  
+setTimeout("showIt3()", 3000); // after 2 sec  
+setTimeout("showIt4()", 4000); // after 2 sec  
+setTimeout("showIt5()", 5000); // after 2 sec  
+setTimeout("showIt6()", 6000); // after 2 sec  
+setTimeout("showIt7()", 7000); // after 2 sec  
+
+</script>  
+
+<script type="text/jquery">
+	$("#story").fadeIn("slow");	
+
+</script>
+
+
+
+</body>
+</html>

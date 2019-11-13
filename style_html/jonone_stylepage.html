@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Limit website size and link to css style sheet -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" type="text/css" href="/CyberArt/css/pick_style.css">
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Source+Code+Pro" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+
+		<title>JonOne</title>
+
+		<!--javascript function for popup window for video -->
+
+		<script>
+		 	function imgWindow(){
+		 		window.open("/CyberArt/vid/JonOne.mp4", "", 'width=1000, height=600')}
+	 	</script>
+
+	</head>
+
+
+	<body>
+
+		<!-- Title for the webpage -->
+		<a href="/CyberArt/index.html"><h1>JonOne Art</h1></a>
+
+		<!-- Instruction for page -->
+		<p class="instruction">Pick a artist's style below</p>
+
+		<!-- Image of the painting -->
+		<img class="painting" src="/CyberArt/img/painting/white.jpeg" onClick="imgWindow()"></br>
+
+		<!-- Three buttons for styles -->
+		<div class="buttonlink">
+			<!-- L'Atlas Button -->
+			<a href="/CyberArt/jonone_html/jonone_latlas.html">
+				<button><img class="latlas" src="/CyberArt/img/button/latlas.png">L'Atlas</button>
+			</a>
+<!-- 			<div class="latlas">
+				L'Atlas
+			</div>
+ -->
+			<!-- JonOne Button -->
+			<a href="/CyberArt/jonone_html/jonone_jonone.html">
+				<button><img class="jonone" src="/CyberArt/img/button/jonone.png">JonOne</button>
+			</a>
+
+			<!-- Tanc Button -->
+			<a href="/CyberArt/jonone_html/jonone_tanc.html">
+				<button><img class="tanc" src="/CyberArt/img/button/tanc.png">Tanc</button>
+			</a>
+	
+		</div>
+
+	</body>
+</html>

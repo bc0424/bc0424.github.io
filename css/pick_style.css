@@ -1,0 +1,78 @@
+body{
+	background-color:white;
+}
+
+/*CSS Style for Title in page*/
+
+h1{
+	font-family: 'Libre Barcode 128 Text';
+	font-size: 5.5em;
+	text-align: center;
+	color: #333333;
+	text-decoration: none;
+}
+
+h1:hover{
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*Styling for instruction font*/
+
+p{
+	font-family: 'Cutive Mono';
+	text-align:center;
+	font-size: 1em;
+	margin-bottom: 50px;
+}
+
+/*Styling for painting picture*/
+
+.painting{
+	width: 30%;
+	display:block;
+	margin: auto;
+	opacity: 1;
+}
+
+.painting:hover{
+	opacity: 0.9;
+}
+
+/*Styling for button layout and sizing*/
+
+.buttonlink{
+	text-align: center;
+}
+
+
+button{
+	border: none;
+	background:none;
+	padding: 0px;
+	width: 100px;
+	height:100px;
+	margin: 5%;
+	margin-top: 3%;
+	font-family: 'Cutive Mono';
+	color: white;
+	margin-bottom:2%;
+}
+
+button:focus{
+	outline: 0;
+}
+
+button:hover{
+	width: 102px;
+	height: 102px;
+	color:black;
+}
+
+img{
+	width: 100%;
+}
+
